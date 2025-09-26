@@ -1,6 +1,6 @@
 import * as React from "react";
-import { type ActionFunctionArgs, redirect } from "react-router";
-import { useActionData, useNavigation, Link } from "react-router-dom";
+import { type ActionFunctionArgs, redirect } from "@remix-run/node";
+import { useActionData, useNavigation, Link } from "@remix-run/react";
 import { SignUpSchema } from "~/core/auth/validation.shemas";
 import { SignUpForm } from "~/components/SighUpForm";
 import { createUser } from "~/core/api/user/user.server";

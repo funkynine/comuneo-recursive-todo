@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Form } from "react-router-dom";
+import { Form } from "@remix-run/react";
 
 export function SignUpForm({ pending, error }: { pending: boolean; error?: string | null }) {
     return (

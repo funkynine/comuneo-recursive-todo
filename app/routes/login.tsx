@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate, Link } from "@remix-run/react";
 import { LoginForm } from "~/components/LoginForm";
 import { useAuth } from "~/core/hooks/useAuth";
 
