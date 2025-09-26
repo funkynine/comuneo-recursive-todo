@@ -3,7 +3,13 @@
 /.cache
 /.idea
 /node_modules/
+/public/build
 
 # React Router
 /.react-router/
 /build/
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/

@@ -117,6 +117,41 @@ Make sure to deploy the output of `npm run build`
 
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling, configured with PostCSS.
 
+## Testing
+
+This project uses [Playwright](https://playwright.dev/) for end-to-end testing. The tests cover:
+
+- Authentication (login and signup)
+- Todo management (adding, toggling, and deleting todos)
+- Navigation between pages
+- UI components and styling
+- Error handling and validation
+
+### Running Tests
+
+To run the tests:
+
+```bash
+# Install Playwright browsers
+npx playwright install
+
+# Run tests in headless mode
+npm test
+
+# Run tests with UI for debugging
+npm run test:ui
+```
+
+### Test Structure
+
+The tests are organized into the following files:
+
+- `auth.spec.ts`: Tests for authentication functionality
+- `todos.spec.ts`: Tests for todo management functionality
+- `navigation.spec.ts`: Tests for navigation between pages
+- `ui.spec.ts`: Tests for UI components and styling
+- `error-handling.spec.ts`: Tests for error handling and validation
+
 ## CI/CD Pipeline
 
 ### Overview
